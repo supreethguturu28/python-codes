@@ -87,12 +87,12 @@ if __name__ == "__main__":
     # Example usage
     host_name = "localhost"
     port_number = 5432
-    database_name = "cisco_ingestion_pipeline"
-    username_data = "postgres"
-    password_data = "postgres"
-    table_name_data = "course_embeddings"
-    schema_name_data = "model_embeddings_old"
-    backup_directory_path = r"C:\Users\Supreeth\Downloads"
+    database_name = "database_name"
+    username_data = "username"
+    password_data = "password"
+    table_name_data = "table_name"
+    schema_name_data = "schema_name"
+    backup_directory_path = r"C:\Users\User\Downloads"
 
     result = backup_postgres_table(
         host=host_name,
