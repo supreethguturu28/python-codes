@@ -4,15 +4,10 @@ import os
 # from logger_file import logger
 
 # Microsoft Graph API Credentials
-CLIENT_ID = "03a9f980-1f6f-479a-8af5-53dc8008270f"
-CLIENT_SECRET = "onp8Q~fdd5hdy8yUVxzBZgoUyyPwBu1VxFlRjdyS"
-TENANT_ID = "e0d55dd0-7e8b-45fb-9c81-c4ad071c91dd"
+CLIENT_ID = "client_id"
+CLIENT_SECRET = "client_secret"
+TENANT_ID = "tenant_id"
 GRAPH_API_URL = "https://graph.microsoft.com/v1.0"
-
-# TENANT_ID = "e0d55dd0-7e8b-45fb-9c81-c4ad071c91dd"
-# CLIENT_SECRET = "Tke8Q~oNzin~ok4IKMQnHMe6ilESNWSxDeLChctI"
-# CLIENT_ID = "0244af74-405d-4c6d-9334-3f1b00b69b53"
-
 
 def get_access_token():
     """
@@ -126,8 +121,8 @@ def send_message_with_file(access_token, chat_id, message, file_name):
 
 if __name__ == "__main__":
     # Replace with actual values
-    user_email = "smartestuser1@relanto.ai"
-    file_path = r"C:\Users\Supreeth\Downloads\proxy.config.json"
+    user_email = "user_email"
+    file_path = r"C:\Users\User\Downloads\file_name.json"
     message = "Here is the file you requested!"
 
     try:
