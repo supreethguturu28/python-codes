@@ -9,12 +9,12 @@ try:
     mail = outlook.CreateItem(0)
 
     # Set email details
-    mail.To = "supreethguturu28@gmail.com"
+    mail.To = "email_id"
     mail.Subject = "File - PIP"
     mail.Body = "Hi there!\n\nHereby, attaching the file related to the installation of pip."
 
     # # Specify the attachment file path
-    # attachment_path = r"C:\Users\Supreeth\Downloads\get-pip.py"
+    # attachment_path = r"C:\Users\User\Downloads\file_name.py"
     #
     # # Check if file exists before attaching
     # if os.path.exists(attachment_path):
