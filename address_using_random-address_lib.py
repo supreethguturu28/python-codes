@@ -1,8 +1,8 @@
 from random_address import random_address, real_random_address
 
 
-# CA = random_address.real_random_address_by_state('CA')
-# POS = random_address.real_random_address_by_postal_code('32409')
+CA = random_address.real_random_address_by_state('CA')
+POS = random_address.real_random_address_by_postal_code('32409')
 
 # Generate a dictionary with valid random address information
 def address_generation():
@@ -17,5 +17,5 @@ def address_generation():
     return f"{address1}, {city}, {state} {postalCode}, USA"
 
 
-# for _ in range(10):
-#     print(address_generation())
+for _ in range(10):
+    print(address_generation())
