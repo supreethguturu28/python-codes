@@ -2,8 +2,8 @@ import psycopg2
 
 # Connect to the PostgreSQL server
 conn = psycopg2.connect(
-    user="postgres",
-    password="Supreeth@1",
+    user="username",
+    password="password",
     host="localhost",
     database="postgres"
 )
